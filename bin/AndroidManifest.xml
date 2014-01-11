@@ -15,8 +15,7 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
 
         
-        <activity          
-            android:name="com.idiotdev.guitarapp.Main"
+        <activity android:name="com.idiotdev.guitarapp.Main"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
@@ -27,6 +26,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.idiotdev.guitarapp.play"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"  />
+        <activity android:name="com.idiotdev.guitarapp.makecode"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"  />
+        <activity android:name="com.idiotdev.guitarapp.setting"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape"  />
+            
     </application>
 
 </manifest>
