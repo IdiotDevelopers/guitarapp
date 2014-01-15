@@ -14,8 +14,8 @@
         android:layout_toRightOf="@+id/fullscreen_content"
         android:background="@drawable/yellow"
         android:gravity="center"
-        android:padding="30dp"
-        android:text="Button" />
+        android:text="코드생성"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/playb"
@@ -25,9 +25,10 @@
         android:layout_alignLeft="@+id/makecodeb"
         android:layout_marginBottom="20dp"
         android:background="@drawable/green"
-        android:gravity="center"
-        android:padding="30dp"
-        android:text="Button" />
+        android:minWidth="20dp"
+        android:text="play"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/settingb"
@@ -38,15 +39,16 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/bluesky"
         android:gravity="center"
-        android:padding="30dp"
-        android:text="Button" />
+        android:text="SETTING"
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/fullscreen_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/makecodeb"
+        android:layout_alignBottom="@+id/makecodeb"
         android:layout_alignParentLeft="true"
-        android:layout_alignTop="@+id/playb"
         android:gravity="top|center"
         android:keepScreenOn="true"
         android:padding="50dp"
