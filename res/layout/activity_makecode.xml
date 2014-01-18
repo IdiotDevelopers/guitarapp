@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-    
+    android:layout_height="match_parent"
+    android:background="#66CCFF" >
+
+    <ImageView
+        android:id="@+id/rpoem5"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="23dp"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/ropem4"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/rpoem5"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/ropem3"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_above="@+id/ropem4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:background="#bb8829" />
+
+    <ImageView
+        android:id="@+id/ropem2"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_above="@+id/ropem3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:background="#bb8829" />
+
+    <ImageView
+        android:id="@+id/ropem1"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_above="@+id/ropem2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:background="#bb8829" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="84dp"
+        android:text="Button" />
 
 </RelativeLayout>
