@@ -117,15 +117,17 @@
         android:layout_marginRight="20dp" />
 
     <ImageView
+        android:id="@+id/rope1"
         android:layout_width="400dp"
         android:layout_height="5dp"
-        android:background="#bb8829"
-        android:id="@+id/rope1"
-        android:layout_toLeftOf="@+id/imageView"
-        android:layout_marginBottom="55dp"
-        android:focusable="false"
+        android:layout_above="@+id/rope2"
         android:layout_alignParentStart="false"
-        android:layout_above="@+id/rope2" />
+        android:layout_marginBottom="@dimen/rope_mb"
+        android:layout_toLeftOf="@+id/imageView"
+        android:background="#bb8829"
+        android:focusable="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
     <ImageView
         android:layout_width="400dp"
@@ -137,7 +139,9 @@
         android:layout_alignEnd="@+id/imageView"
         android:layout_alignParentStart="false"
         android:layout_above="@+id/rope3"
-        android:layout_marginBottom="55dp" />
+        android:layout_marginBottom="@dimen/rope_mb"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
     <ImageView
         android:layout_width="400dp"
@@ -146,7 +150,9 @@
         android:id="@+id/rope3"
         android:focusable="false"
         android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/imageView" />
+        android:layout_toLeftOf="@+id/imageView"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
     <ImageView
         android:layout_width="400dp"
@@ -156,8 +162,10 @@
         android:focusable="false"
         android:layout_toLeftOf="@+id/imageView"
         android:layout_below="@+id/rope3"
-        android:layout_marginTop="55dp"
-        android:layout_alignParentEnd="false" />
+        android:layout_marginTop="@dimen/rope_mb"
+        android:layout_alignParentEnd="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
 
     <ImageView
         android:layout_width="400dp"
@@ -168,7 +176,29 @@
         android:focusable="false"
         android:layout_alignParentStart="false"
         android:longClickable="false"
-        android:layout_marginTop="55dp"
-        android:layout_below="@+id/rope4" />
+        android:layout_marginTop="@dimen/rope_mb"
+        android:layout_below="@+id/rope4"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:id="@+id/changecode"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="86dp"
+        android:text="change code" />
+
+    <Button
+        android:id="@+id/showcode"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:text="set code" />
 
 </RelativeLayout>
